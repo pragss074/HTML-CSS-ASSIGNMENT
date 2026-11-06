@@ -1,0 +1,50 @@
+/*
+Name - Pragya
+ID - BCS2025499
+Roll No - 2510303373
+Email ID - pragya.rg2007@gmail.com
+*/
+:root {
+  --main-color: #1d3557;
+  --accent-color: #e63946;
+  --page-padding: 20px;
+  --primary-color: #1d3557;
+  --heading-size: 2rem;
+  --spacing: 16px;
+}
+
+.box-px {
+  width: 200px;
+  height: 40px;
+  background: lightblue;
+  margin-bottom: 10px;
+}
+
+.box-percent {
+  width: 50%;
+  height: 40px;
+  background: lightcoral;
+}
+
+.large {
+  font-size: 1.5rem;
+}
+
+#variables {
+  color: var(--main-color);
+  padding: var(--page-padding);
+}
+
+#variables h1 {
+  color: var(--accent-color);
+}
+
+#tokens {
+  color: var(--primary-color);
+  padding: var(--spacing);
+}
+
+#tokens h1 {
+  color: var(--accent-color);
+  font-size: var(--heading-size);
+}
