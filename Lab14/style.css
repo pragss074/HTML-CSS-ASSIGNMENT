@@ -1,0 +1,61 @@
+/*
+Name - Pragya
+ID - BCS2025499
+Roll No - 2510303373
+Email ID - pragya.rg2007@gmail.com
+*/
+#grid-first .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+#grid-first .grid div {
+  background: #dbeafe;
+  padding: 24px;
+  text-align: center;
+}
+
+#gallery .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+#gallery .gallery div {
+  background: #e0f2fe;
+  padding: 40px 10px;
+  text-align: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas: 'header header' 'sidebar main' 'footer footer';
+  gap: 10px;
+}
+
+.dashboard header {
+  grid-area: header;
+  background: #dbeafe;
+  padding: 20px;
+}
+
+.dashboard aside {
+  grid-area: sidebar;
+  background: #e0e7ff;
+  padding: 20px;
+}
+
+.dashboard main {
+  grid-area: main;
+  background: #f1f5f9;
+  padding: 20px;
+  min-height: 160px;
+}
+
+.dashboard footer {
+  grid-area: footer;
+  background: #dbeafe;
+  padding: 20px;
+}
